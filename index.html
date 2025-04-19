@@ -30,6 +30,7 @@
   });
 </script>
   <body>
+    <button class="theme-toggle" onclick="toggleTheme()">🌓 Toggle Theme</button>
   <div class="scroll-banner">🌟 Welcome to My Portfolio - Narendra Kumar | ECE | Embedded Systems | IoT 🌟</div>
   <div class="container">
     <header class="header">
@@ -88,3 +89,9 @@
   </div>
 </body>
 </html>
+<script>
+  function toggleTheme() {
+    document.body.classList.toggle('light-mode');
+  }
+</script>
+
