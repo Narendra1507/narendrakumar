@@ -203,4 +203,7 @@ body.light-mode .theme-toggle {
   background: #ddd;
   color: #000;
 }
+.typed-cursor {
+  display: none !important;
+}
 
